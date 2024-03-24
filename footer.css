@@ -1,0 +1,120 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+
+.menu-section {
+  width: 20%;
+  padding: 10px;
+  border-right: 2px solid #ccc;
+}
+
+.ms-inner {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu-section ul {
+  list-style-type: none;
+}
+
+.menu-section ul li {
+  margin-bottom: 5px;
+}
+
+.menu-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  height: 20px;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.about-holi {
+  color: #ffffffa9;
+}
+
+i {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  color: #ccc;
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+i:hover {
+  font-size: 1.6rem;
+  color: aqua;
+}
+
+form input {
+  background: transparent;
+  color: #ccc;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid#ccc;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .menu-section {
+    width: 80%;
+    margin-bottom: 15px;
+    text-align: center;
+    border: none;
+  }
+}

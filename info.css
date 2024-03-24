@@ -1,0 +1,183 @@
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro,
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-intro {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-intro img {
+  height: 150px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(184, 113, 113, 0.2),
+    0 6px 20px 0 rgba(103, 8, 8, 0.721);
+}
+
+.content-intro {
+  padding: 0 50px 0 50px;
+}
+
+.intro,
+.exp {
+  padding: 10px;
+  max-width: 49%;
+}
+
+.typing-effect {
+  height: 50px;
+}
+
+.h1 {
+  margin-top: 5%;
+  background-image: url(img/abc.png);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* .type::after {
+  content: "";
+  position: absolute;
+  background: white;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  border-left: 2px solid black;
+  animation: typing 5s steps(37) 1;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+} */
+
+.h3 {
+  font-family: comic sans MS;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.para {
+  font-family: comic sans MS;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.infoH1 {
+  animation-delay: 0.5s;
+}
+
+.introH3 {
+  margin-top: 10%;
+  animation-delay: 2s;
+}
+
+.introPara {
+  animation-delay: 2.5s;
+}
+
+.introImg {
+  animation-delay: 3s;
+}
+
+.expImg {
+  animation-delay: 3.5s;
+}
+
+.expH3 {
+  animation-delay: 4s;
+}
+
+.expPara {
+  animation-delay: 4.5s;
+}
+
+.btnDiv {
+  animation-delay: 6s;
+}
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile {
+    display: contents;
+  }
+  .laptop {
+    display: none;
+  }
+  .h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .h3 {
+    font-size: 1.2rem;
+  }
+  .para {
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .expPara {
+    padding-top: 20px;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .intro,
+  .exp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    max-width: 100%;
+  }
+  .content-intro {
+    padding: 0;
+    margin: 0;
+  }
+  .introImg {
+    padding: 0;
+    margin: 0;
+  }
+  .image-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .btnDiv {
+    padding-bottom: 10px;
+  }
+  .expImg {
+    animation-delay: 4.5s;
+  }
+  .expH3 {
+    animation-delay: 3.5s;
+  }
+  .expPara {
+    animation-delay: 4s;
+  }
+}

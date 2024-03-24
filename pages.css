@@ -1,0 +1,143 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/ab.png);
+  background-color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.aboutHoli-H3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.introduction {
+  padding: 20px;
+}
+
+.fullWidth {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDivContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-aboutHoli,
+.paragraph-aboutHoli{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.img-aboutHoli {
+  height: 200px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(83, 68, 68, 0.256),
+    0 6px 20px 0 rgba(106, 13, 13, 0.721);
+}
+
+.aboutHoli-Hr {
+  width: 90%;
+  border: none;
+  border-bottom: 3px solid#ccc;
+  margin: 20px auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btnLeft {
+  padding-left: 40px;
+}
+
+.btnRight {
+  padding-right: 40px;
+}
+
+.divAni {
+  animation: ani 0.3s ease-in-out;
+}
+
+.btn {
+  height: 6vh;
+  width: 15vh;
+  font-size: 1rem;
+  display: inline-block;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  font-size: 1.1rem;
+  height: 6vh;
+  width: 17vh;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  /* border-top-right-radius: 30px; */
+  border-radius: 5px;
+}
+
+.rec-h3 {
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutHoli-H3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .mainDivContainer {
+    flex-direction: column;
+  }
+  .image-aboutHoli {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 30px;
+  }
+  .paragraph-aboutHoli {
+    flex-direction: column;
+    /* padding-right: 30px; */
+  }
+  .rec-h3 {
+    font-size: 1.2rem;
+  }
+  .btnLeft{
+    margin-top: 50px;
+  }
+  .btnRight{
+    margin-bottom: 50px;
+  }
+}
