@@ -14,3 +14,9 @@ canvas {
     z-index: 9999 !important;
     position: sticky;
   } 
+
+  @media only screen and (max-width: 768px) {
+    .hideCanvas{
+      display: none;
+    }
+  }

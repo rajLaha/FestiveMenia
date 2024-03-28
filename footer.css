@@ -118,4 +118,10 @@ hr {
     text-align: center;
     border: none;
   }
+  
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

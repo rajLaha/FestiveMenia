@@ -19,10 +19,13 @@
     />
   </head>
   <body>
-    <header>
+    <!-- html for navigation bar  -->
+
+    <!-- navigation bar for laptop -->
+    <header class="headLap">
       <div class="navbar" id="navBookmark">
         <div class="logo">
-          <a class="removeStyle logoText">Holi - Festival of Colors</a>
+          <a class="removeStyle logoText">Festive Menia</a>
         </div>
         <div class="navigation">
           <a class="removeStyle anchorStyle" href="index.html">Home</a>
@@ -40,8 +43,38 @@
       </div>
     </header>
 
+    <!-- navigation bar for mobile -->
+    <header class="headMob">
+      <div class="headMobBar">
+        <div class="bar">
+          <div class="mobNavbar" id="navBookmark">
+            <div class="logoMo">
+              <a>Festive Menia</a>
+            </div>
+            <div>
+              <div id="buttonBar">
+                <div id="bar3">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="btnNone" id="cross">
+                <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navigationMob navigationHide">
+          <hr />
+          <a href="index.html">Home</a>
+          <a href="aboutHoli.html">About Holi</a>
+          <a href="events.html">Special Recipes</a>
+          <a href="recipes.html">Games & Activities</a>
+        </div>
+      </div>
+    </header>
+
     <!-- html for canvas -->
-    <canvas width="1869" height="417"></canvas>
+    <canvas width="1869" height="417"  class="hideCanvas"></canvas>
 
     <h3 class="aboutHoli-H3 delay" id="abH3">History and Significance</h3>
     <div class="introduction">
@@ -289,5 +322,6 @@
       type="text/javascript"
     ></script>
     <script src="canvas.js"></script>
+    <script src="header.js"></script>
   </body>
 </html>
