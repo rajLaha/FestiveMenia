@@ -9,7 +9,7 @@ body,
 html {
   height: 100%;
   width: 100%;
-  background-image: url(img/ab.png);
+  /* background-image: url(img/ab.png); */
   background-color: #fff;
   background-size: cover;
   background-attachment: fixed;
@@ -52,26 +52,3 @@ html {
   /* border-top-right-radius: 30px; */
   border-radius: 5px;
 }
-
-.delay {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: delayAnimation 0.5s linear forwards;
-}
-
-@keyframes ani {
-  0% {
-    scale: 0;
-  }
-  100% {
-    scale: 1;
-  }
-}
-
-@keyframes delayAnimation {
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-

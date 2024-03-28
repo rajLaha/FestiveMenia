@@ -3,7 +3,6 @@ let btn2 = document.querySelector("#btn2");
 let control = document.querySelector("#control");
 let typingEffect = document.querySelector("#typing-effect");
 let typingEffectMob = document.querySelector("#typing-effect-mob");
-let can = document.querySelector("#can");
 
 const btn1clicker = () => {
   btn1.classList.add("hide");
@@ -44,4 +43,3 @@ function typeWriter() {
 }
 
 typeWriter();
-
